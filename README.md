@@ -1,4 +1,7 @@
-目次
+## 環境
+ - Xcode 6 GM seed
+
+## 目次
  - [Parse.comとは？](https://github.com/kiiita/SwifferAppForBeta7/wiki/1.-Parse.com%E3%81%A8%E3%81%AF%EF%BC%9F)
   - [1-1. Parse.comとの連携と設定が済んだプロジェクトをクローンしよう！](https://github.com/kiiita/SwifferAppForBeta7/wiki/1.-Parse.com%E3%81%A8%E3%81%AF%EF%BC%9F#1-1-parsecom%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA%E3%81%A8%E8%A8%AD%E5%AE%9A%E3%81%8C%E6%B8%88%E3%82%93%E3%81%A0%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%97%E3%82%88%E3%81%86)
  - [データベースを使うために、Parse.comを使えるように設定しよう！](https://github.com/kiiita/SwifferAppForBeta7/wiki/2.-%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%92%E4%BD%BF%E3%81%86%E3%81%9F%E3%82%81%E3%81%AB%E3%80%81Parse.com%E3%82%92%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E8%A8%AD%E5%AE%9A%E3%81%97%E3%82%88%E3%81%86%EF%BC%81)
