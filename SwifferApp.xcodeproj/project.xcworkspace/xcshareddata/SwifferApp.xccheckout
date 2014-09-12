@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25050529-E9EC-4730-A565-4D4640D5C8AC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwifferApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DB3B9DAACB72FE42C6E89B4B11BBF3FEBBC42D49</key>
+		<string>github.com:kiiita/SwifferAppForBeta7.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwifferApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DB3B9DAACB72FE42C6E89B4B11BBF3FEBBC42D49</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:kiiita/SwifferAppForBeta7.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DB3B9DAACB72FE42C6E89B4B11BBF3FEBBC42D49</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DB3B9DAACB72FE42C6E89B4B11BBF3FEBBC42D49</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwifferApp%202</string>
+		</dict>
+	</array>
+</dict>
+</plist>
