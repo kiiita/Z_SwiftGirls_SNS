@@ -22,9 +22,6 @@
 		86F71A75196086A3008EE3B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F71A74196086A3008EE3B7 /* SystemConfiguration.framework */; };
 		86F71A77196086C0008EE3B7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F71A76196086C0008EE3B7 /* Parse.framework */; };
 		86F71A7D1960885E008EE3B7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F71A7C1960885E008EE3B7 /* Storyboard.storyboard */; };
-		86F71A7F19608A73008EE3B7 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F71A7E19608A73008EE3B7 /* TimelineTableViewController.swift */; };
-		86F71A8119608AAE008EE3B7 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F71A8019608AAE008EE3B7 /* ComposeViewController.swift */; };
-		86F71A8319608BB6008EE3B7 /* SweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F71A8219608BB6008EE3B7 /* SweetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +53,7 @@
 		86F71A721960869D008EE3B7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		86F71A74196086A3008EE3B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		86F71A76196086C0008EE3B7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		86F71A7919608718008EE3B7 /* SwifferApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwifferApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		86F71A7C1960885E008EE3B7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		86F71A7E19608A73008EE3B7 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
-		86F71A8019608AAE008EE3B7 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
-		86F71A8219608BB6008EE3B7 /* SweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				86F71A4A19608640008EE3B7 /* AppDelegate.swift */,
-				86F71A7E19608A73008EE3B7 /* TimelineTableViewController.swift */,
-				86F71A8019608AAE008EE3B7 /* ComposeViewController.swift */,
-				86F71A8219608BB6008EE3B7 /* SweetTableViewCell.swift */,
 				86F71A7C1960885E008EE3B7 /* Storyboard.storyboard */,
-				86F71A7919608718008EE3B7 /* SwifferApp-Bridging-Header.h */,
 				86F71A4C19608640008EE3B7 /* Images.xcassets */,
 				86F71A4819608640008EE3B7 /* Supporting Files */,
 			);
@@ -267,9 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F71A8119608AAE008EE3B7 /* ComposeViewController.swift in Sources */,
-				86F71A7F19608A73008EE3B7 /* TimelineTableViewController.swift in Sources */,
-				86F71A8319608BB6008EE3B7 /* SweetTableViewCell.swift in Sources */,
 				86F71A4B19608640008EE3B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +369,6 @@
 				INFOPLIST_FILE = SwifferApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwifferApp/SwifferApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -401,7 +386,6 @@
 				INFOPLIST_FILE = SwifferApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwifferApp/SwifferApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -460,6 +444,7 @@
 				86F71A5E19608640008EE3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86F71A5F19608640008EE3B7 /* Build configuration list for PBXNativeTarget "SwifferAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +453,7 @@
 				86F71A6119608640008EE3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
