@@ -1,5 +1,5 @@
 ## 環境
- - Xcode 6 GM seed
+ - Xcode version 6.1.1 (6A2008a)
 
 ## 目次
  - [Parse.comとは？](https://github.com/kiiita/SwifferAppForBeta7/wiki/1.-Parse.com%E3%81%A8%E3%81%AF%EF%BC%9F)
